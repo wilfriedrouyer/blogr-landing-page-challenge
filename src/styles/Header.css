@@ -1,0 +1,8 @@
+.header {
+    color: white;
+    background-color: hsl(356, 100%, 66%);
+    background-image: url('/src/assets/img/bg-pattern-intro-desktop.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
