@@ -1,8 +1,55 @@
-.header {
+.hero-section {
     color: white;
     background-color: hsl(356, 100%, 66%);
     background-image: url('/src/assets/img/bg-pattern-intro-desktop.svg');
-    background-size: cover;
-    background-position: center;
+    background-size:auto;
+    background-position: right 77.5% top 52%;
     background-repeat: no-repeat;
+    border-bottom-left-radius: 100px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Overpass';
+    padding-bottom: 150px;
+}
+
+.headline {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.subheadline {
+    font-size: 21px;
+    color: hsl(6, 100%, 92%);
+    margin-bottom: 50px;
+}
+
+
+.hero-cta {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.start-for-free {
+    background-color: white;
+    color:hsl(356, 100%, 66%)
+}
+
+.learn-more {
+    background-color: transparent;
+    color:white;
+    border: 1px solid, white;
+}
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('../assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
 }
