@@ -1,0 +1,17 @@
+.paragraph-section {
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+
+.stick-right {
+    transform: translateX(260px);
+}
+
+.stick-left {
+    transform: translateX(-280px);
+}
+
+.order-1 {
+  order: 1;
+}
