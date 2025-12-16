@@ -2,3 +2,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    padding: 15px 0px;
+    border-radius: 30px;
+    font-size: large;
+    font-family: 'Overpass';
+    width: 142px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('../assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}
