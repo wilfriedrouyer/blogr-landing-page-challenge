@@ -42,6 +42,6 @@
 
 @font-face {
   font-family: 'Overpass';
-  src: url('../assets/fonts/Overpass/Overpass-Regular.ttf')
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
     format('truetype');
 }
