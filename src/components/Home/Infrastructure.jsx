@@ -2,10 +2,31 @@ import Paragraph from "../Paragraph";
 import Section from "../Section";
 
 import phoneImg from '../../assets/img/illustration-phones.svg';
+import circleImg from '../../assets/img/bg-pattern-circles.svg';
 
 export default function Infrastructure() {
-    const sectionStyle = {paddingLeft: '200px', backgroundColor: 'hsl(238, 21%, 29%)'}
-    const paragraphStyle = {contentStyle: {color: 'white' }};
+    const sectionStyle = {
+        paddingLeft: '200px',
+        height: '50vh',
+        gap: '50px',
+        backgroundColor: 'hsl(238, 21%, 29%)',
+        backgroundImage: `url(${circleImg})`,
+        backgroundSize: '75%',
+        backgroundPosition: '-250px -620px',
+        backgroundRepeat: 'no-repeat'
+    };
+
+    const paragraphStyle = {
+        titleStyle: {
+            color: 'white',
+            fontSize: '36px',
+            fontWeight: '300',
+            lineHeight: '1'
+        },
+        contentStyle: {
+            color: 'white',
+        },
+    };
 
     return (
         <Section image={phoneImg} style={sectionStyle}>
