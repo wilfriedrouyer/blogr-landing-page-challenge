@@ -1,0 +1,22 @@
+.paragraph {
+    font-family: 'Overpass';
+    width: 500px;
+}
+
+.paragraph-title {
+    color: hsl(208, 49%, 24%);
+}
+
+.paragraph-content {
+    color: hsl(207, 13%, 34%);
+    line-height: 2;
+}
+
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}

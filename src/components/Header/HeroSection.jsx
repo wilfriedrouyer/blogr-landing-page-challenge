@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 
-import "../../styles/HeroSection.css"
+import "../../styles/Header/HeroSection.css"
 
 export default function HeroSection() {
   return (

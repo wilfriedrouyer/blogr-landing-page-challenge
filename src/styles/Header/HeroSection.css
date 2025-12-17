@@ -1,8 +1,9 @@
 .hero-section {
     color: white;
-    background-image: url('/src/assets/img/bg-pattern-intro-desktop.svg'), linear-gradient(to right, hsl(10, 100%, 72%), hsl(356, 100%, 66%));
-    background-size:auto;
-    background-position: right 77.5% top 52%;
+    background-image: url('/src/assets/img/bg-pattern-intro-desktop.svg'),
+                      linear-gradient(to right, hsl(10, 100%, 72%), hsl(354, 100%, 63%));
+    background-size:250;
+    background-position: right 77.2% top 52%;
     background-repeat: no-repeat;
     border-bottom-left-radius: 100px;
 }
@@ -49,6 +50,6 @@
 
 @font-face {
   font-family: 'Overpass';
-  src: url('../assets/fonts/Overpass/Overpass-Regular.ttf')
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
     format('truetype');
 }
