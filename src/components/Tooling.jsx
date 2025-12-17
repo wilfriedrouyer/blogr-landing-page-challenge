@@ -1,4 +1,4 @@
-import Paragraph from './Home/Paragraph'
+import Paragraph from './Paragraph'
 import Section from './Section'
 
 import LaptopImg from '../assets/img/illustration-laptop-desktop.svg'

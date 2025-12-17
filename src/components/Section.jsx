@@ -1,4 +1,4 @@
-import "../styles/Home/Section.css"
+import "../styles/Section.css"
 
 export default function Section({image, imagePosition = 'left', stickSection, style, children}) {
     const paragraphClasses = `${stickSection !== null && stickSection !== undefined ? `stick-${stickSection}` : ''}`;

@@ -1,4 +1,4 @@
-import '../../styles/Home/Paragraph.css'
+import '../styles/Paragraph.css'
 
 export default function Paragraph({title, style, children}) {
 

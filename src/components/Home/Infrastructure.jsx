@@ -1,4 +1,4 @@
-import Paragraph from "./Paragraph";
+import Paragraph from "../Paragraph";
 import Section from "../Section";
 
 import phoneImg from '../../assets/img/illustration-phones.svg';
