@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    align-items: baseline;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -16,7 +17,7 @@
 
 .navbar-links {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 50px;
     font-size: large;
     color: hsl(6, 100%, 92%);

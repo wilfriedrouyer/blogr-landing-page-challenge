@@ -1,5 +1,9 @@
 import Logo from "../../assets/img/logo.svg";
 import "../../styles/Header/Navbar.css"
+import { Dropdown } from "../Dropdown/Dropdown";
+import DropdownItem from "../Dropdown/DropdownItem";
+import DropdownMenu from "../Dropdown/DropdownMenu";
+import DropdownToggle from "../Dropdown/DropdownToggle";
 
 export default function Navbar() {
   return (
@@ -9,9 +13,33 @@ export default function Navbar() {
                 <img src={Logo} alt="Blogr logo"/>
             </div>
             <div className="navbar-links">
-                <div>Product</div>
-                <div>Company</div>
-                <div>Connect</div>
+                <Dropdown>
+                    <DropdownToggle>Product</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>Overview</DropdownItem>
+                        <DropdownItem>Pricing</DropdownItem>
+                        <DropdownItem>Marketplace</DropdownItem>
+                        <DropdownItem>Features</DropdownItem>
+                        <DropdownItem>Integrations</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
+                <Dropdown>
+                    <DropdownToggle>Company</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>About</DropdownItem>
+                        <DropdownItem>Team</DropdownItem>
+                        <DropdownItem>Blog  </DropdownItem>
+                        <DropdownItem>Careers</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
+                <Dropdown>
+                    <DropdownToggle>Connect</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>Contact</DropdownItem>
+                        <DropdownItem>Newsletter</DropdownItem>
+                        <DropdownItem>LinkedIn</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
             </div>
         </div>
 
