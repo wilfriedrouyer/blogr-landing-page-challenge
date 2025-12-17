@@ -1,11 +1,11 @@
 .paragraph-section {
     display: flex;
     align-items: center;
-    gap:100px;
+    gap:125px;
 }
 
 .stick-right {
-    transform: translateX(260px);
+    transform: translateX(240px);
 }
 
 .stick-left {
