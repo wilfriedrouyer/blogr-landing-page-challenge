@@ -35,17 +35,6 @@
 }
 
 
-.start-for-free {
-    background-color: white;
-    color:hsl(356, 100%, 66%)
-}
-
-.learn-more {
-    background-color: transparent;
-    color:white;
-    border: 1px solid, white;
-}
-
 /***********FONT FAMILIES****************/
 
 @font-face {

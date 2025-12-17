@@ -1,0 +1,35 @@
+.cta {
+    padding: 15px 0px;
+    border-radius: 30px;
+    font-size: large;
+    font-family: 'Overpass';
+    width: 142px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cta-primary {
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+}
+
+.cta-primary:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+}
+
+.cta-secondary {
+    background-color: transparent;
+    color:white;
+    border: 1px solid, white;
+}
+
+.cta-secondary:hover {
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+}
+
+.cta-transparent {
+    background-color: transparent;
+    color: hsl(6, 100%, 92%);
+}

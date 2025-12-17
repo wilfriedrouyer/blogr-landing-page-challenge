@@ -1,5 +1,6 @@
 import Logo from "../../assets/img/logo.svg";
 import "../../styles/Header/Navbar.css"
+import Button from "../Button";
 import { Dropdown } from "../Dropdown/Dropdown";
 import DropdownItem from "../Dropdown/DropdownItem";
 import DropdownMenu from "../Dropdown/DropdownMenu";
@@ -44,8 +45,8 @@ export default function Navbar() {
         </div>
 
         <div className="navbar-authentication">
-            <a href="/" className="login">Login</a>
-            <a href="/" className="sign-up cta">Sign Up</a>
+            <Button url="/" variant='transparent'>Login</Button>
+            <Button url="/" variant='primary' >Sign Up</Button>
         </div>
     </nav>
   )

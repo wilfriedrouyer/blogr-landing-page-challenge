@@ -1,6 +1,7 @@
 import Navbar from './Navbar'
 
 import "../../styles/Header/HeroSection.css"
+import Button from '../Button'
 
 export default function HeroSection() {
   return (
@@ -10,8 +11,8 @@ export default function HeroSection() {
           <div className='headline'>A modern publishing platform</div>
           <div className='subheadline'>Grow your audience and build your online brand</div>
           <div className='hero-cta'>
-            <a href='/' className='cta start-for-free'>Start for Free</a>
-            <a href='/' className='cta learn-more'>Learn more</a>
+            <Button url='/' variant='primary'>Start for Free</Button>
+            <Button url='/' variant='secondary'>Learn more</Button>
           </div>
         </div>
     </div>
