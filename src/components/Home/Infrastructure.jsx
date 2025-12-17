@@ -13,7 +13,9 @@ export default function Infrastructure() {
         backgroundImage: `url(${circleImg})`,
         backgroundSize: '75%',
         backgroundPosition: '-250px -620px',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        borderBottomLeftRadius: '100px',
+        borderTopRightRadius: '100px'
     };
 
     const paragraphStyle = {
