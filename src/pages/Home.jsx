@@ -1,6 +1,6 @@
 import Infrastructure from "../components/Home/Infrastructure";
 import Introduction from "../components/Home/Introduction";
-import Tooling from "../components/Tooling";
+import Tooling from "../components/Home/Tooling";
 
 import '../styles/Home.css'
 

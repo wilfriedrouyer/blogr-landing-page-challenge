@@ -1,7 +1,7 @@
-import Paragraph from './Paragraph'
-import Section from './Section'
+import Paragraph from '../Paragraph'
+import Section from '../Section'
 
-import LaptopImg from '../assets/img/illustration-laptop-desktop.svg'
+import LaptopImg from '../../assets/img/illustration-laptop-desktop.svg'
 
 export default function Tooling() {
     const stickSection = 'left';
