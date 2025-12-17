@@ -1,0 +1,22 @@
+.footer {
+    background-color: hsl(240, 10%, 16%);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Overpass';
+    font-weight: 100;
+    padding: 100px 0px;
+    border-top-right-radius: 100px;
+}
+
+.footer-logo {
+    height: 50px;
+}
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}

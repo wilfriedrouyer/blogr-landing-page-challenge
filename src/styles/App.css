@@ -14,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+ul, ol {
+  list-style: none;  /* supprime puces / numéros */
+  padding: 0;        /* supprime le padding par défaut */
+  margin: 0;         /* supprime la marge par défaut */
+}
+
 .cta {
     padding: 15px 0px;
     border-radius: 30px;
