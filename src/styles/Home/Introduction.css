@@ -1,0 +1,19 @@
+.home-title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Overpass';
+    font-weight: 600;
+    color: hsl(209, 47%, 22%);
+    position: relative;
+    top: 220px;
+}
+
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}
