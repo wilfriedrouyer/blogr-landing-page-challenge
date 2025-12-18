@@ -5,8 +5,6 @@ import '../../styles/Burger/BurgerMenu.css';
 export default function BurgerMenu({ children }) {
     const { isOpen } = useBurger() 
 
-    console.log(isOpen);
-
     if(!isOpen) return null;
 
     return (
