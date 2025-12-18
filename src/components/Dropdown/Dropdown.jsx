@@ -1,13 +1,11 @@
-import { createContext, useState, useRef, useEffect, useContext } from "react";
+import { createContext, useRef, useEffect, useContext } from "react";
+import { useDisclosure } from "../../hooks/useDisclosure";
 
 const DropdownContext = createContext(null);
 
 export function Dropdown({ children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isOpen, toggle, close } = useDisclosure();
   const ref = useRef(null);
-
-  const toggle = () => setIsOpen(o => !o);
-  const close = () => setIsOpen(false);
 
   // Fermer au clic extérieur
   useEffect(() => {
