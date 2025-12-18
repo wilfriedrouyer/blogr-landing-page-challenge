@@ -1,0 +1,21 @@
+.dropdown-item {
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    border: none;
+    font-family: 'Overpass';
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}

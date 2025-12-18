@@ -1,0 +1,22 @@
+.dropdown-toggle {
+    background-color: transparent;
+    color: hsl(6, 100%, 92%);
+    font-size: large;
+    border: none;
+    font-weight: 600;
+    font-family: 'Overpass';
+}
+
+.dropdown-toggle:hover {
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('/src/assets/fonts/Overpass/Overpass-Regular.ttf')
+    format('truetype');
+}
