@@ -11,7 +11,7 @@ export default function DropdownToggle({ children }) {
       onClick={toggle}
       aria-expanded={isOpen}
       aria-haspopup="menu"
-      className="dropdown-toggle"
+      className={`dropdown-toggle ${isOpen ? "open" : ""}`}
     >
       <span className="label">{children}</span>
       <Chevron open={isOpen} />
