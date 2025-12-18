@@ -29,7 +29,33 @@
     gap: 30px;
 }
 
+.burger {
+    visibility: hidden;
+    position: absolute;
+}
 
+
+@media (max-width: 1000px) {
+    .navbar {
+        gap: 0px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-authentication {
+        display: none;
+    }
+
+    .burger {
+        visibility: visible;
+        position: relative;
+    }
+}
 /***********FONT FAMILIES****************/
 
 @font-face {
