@@ -2,3 +2,7 @@
     color: hsl(233, 7%, 75%);
     font-size:medium;
 }
+
+.list-element:hover {
+    text-decoration: underline;
+}
