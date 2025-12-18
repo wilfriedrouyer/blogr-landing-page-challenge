@@ -1,5 +1,8 @@
 import Logo from "../../assets/img/logo.svg";
 import "../../styles/Header/Navbar.css"
+import Burger from "../BurgerMenu/Burger";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import BurgerToggle from "../BurgerMenu/BurgerToggle";
 import Button from "../Button";
 import { Dropdown } from "../Dropdown/Dropdown";
 import DropdownItem from "../Dropdown/DropdownItem";
@@ -48,6 +51,44 @@ export default function Navbar() {
             <Button url="/" variant='transparent'>Login</Button>
             <Button url="/" variant='primary' >Sign Up</Button>
         </div>
+
+        <Burger>
+            <BurgerToggle />
+            <BurgerMenu>
+                <Dropdown>
+                    <DropdownToggle>Product</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>Overview</DropdownItem>
+                        <DropdownItem>Pricing</DropdownItem>
+                        <DropdownItem>Marketplace</DropdownItem>
+                        <DropdownItem>Features</DropdownItem>
+                        <DropdownItem>Integrations</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
+                <Dropdown>
+                    <DropdownToggle>Company</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>About</DropdownItem>
+                        <DropdownItem>Team</DropdownItem>
+                        <DropdownItem>Blog  </DropdownItem>
+                        <DropdownItem>Careers</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
+                <Dropdown>
+                    <DropdownToggle>Connect</DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem>Contact</DropdownItem>
+                        <DropdownItem>Newsletter</DropdownItem>
+                        <DropdownItem>LinkedIn</DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
+
+                <div className="navbar-authentication">
+                    <Button url="/" variant='transparent'>Login</Button>
+                    <Button url="/" variant='primary' >Sign Up</Button>
+                </div>
+            </BurgerMenu>
+        </Burger>
     </nav>
   )
 }

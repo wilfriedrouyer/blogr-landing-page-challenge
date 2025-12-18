@@ -1,24 +1,15 @@
-import { createContext, useState, useRef, useEffect, useContext } from "react";
+import { createContext, useContext, useRef } from "react";
+import { useClickOutside } from "../../hooks/useClickOutside";
+import { useDisclosure } from "../../hooks/useDisclosure";
 
 const DropdownContext = createContext(null);
 
 export function Dropdown({ children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isOpen, toggle, close } = useDisclosure();
   const ref = useRef(null);
 
-  const toggle = () => setIsOpen(o => !o);
-  const close = () => setIsOpen(false);
-
-  // Fermer au clic extérieur
-  useEffect(() => {
-    const handleClickOutside = e => {
-      if (ref.current && !ref.current.contains(e.target)) {
-        close();
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  useClickOutside(ref, close);
+  
 
   return (
     <DropdownContext.Provider value={{ isOpen, toggle, close }}>

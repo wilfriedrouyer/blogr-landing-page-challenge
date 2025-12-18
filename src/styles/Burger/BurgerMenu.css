@@ -1,0 +1,43 @@
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.burger-menu .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger-menu .dropdown-menu {
+    position: relative;
+    background-color: hsl(240, 7%, 94%);
+    width: 100%;
+    align-items: center;
+}
+
+.burger-menu .dropdown-item, .burger-menu .dropdown-toggle.open {
+    color: hsl(223, 7%, 42%);
+}
+
+.burger-menu .dropdown-toggle {
+    color: hsl(205, 56%, 13%);
+}
+
+.burger-menu .chevron {
+    color: hsl(354, 70%, 79%);
+}
+
+.burger-menu .dropdown-toggle:hover {
+    text-decoration: none;
+}
